@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'application',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'application',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'phpmailer/phpmailer' => array(
+            'pretty_version' => 'v5.2.9',
+            'version' => '5.2.9.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpmailer/phpmailer',
+            'aliases' => array(),
+            'reference' => '73b61679809615850706f1dbf88e6df2ddc05745',
+            'dev_requirement' => false,
+        ),
+        'twig/twig' => array(
+            'pretty_version' => 'v1.12.3',
+            'version' => '1.12.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../twig/twig',
+            'aliases' => array(),
+            'reference' => '27f3428b08c7f656d6824359a9d9dee3f5fce31b',
+            'dev_requirement' => false,
+        ),
+    ),
+);

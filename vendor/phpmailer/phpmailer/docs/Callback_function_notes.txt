@@ -1,0 +1,8 @@
+CALLBACK FUNCTION:
+
+Provided an example that echos the results back to the screen. The
+callback function can be used for any purpose. With minor modifications, the
+callback function can be used to create CSV logs, post results to databases,
+etc.
+
+

@@ -1,0 +1,45 @@
+{% include 'header.html' %}
+
+
+<div id="white">
+   <div class="container">
+      <div class="row">
+
+      <div class="col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
+       <div class="well profile">
+            <div class="col-sm-12">
+                <div class="col-xs-12 col-sm-12">
+                   <h2>{{ profile_user_name }}</h2>
+                   <p><strong>Created: </strong> {{ created }} ago. </p>
+                    <p><strong>About: </strong> Read, out with friends, listen to music, draw and learn new things. </p>
+                    <p><strong>Skills: </strong>
+                        <span class="tags">html5</span>
+                        <span class="tags">css3</span>
+                        <span class="tags">jquery</span>
+                        <span class="tags">bootstrap3</span>
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 divider text-center">
+                <div class="col-xs-12 col-sm-4 emphasis">
+                   <h2><strong> {{ total_points}} </strong></h2>
+                    <p><small>Points</small></p>
+                </div>
+                <div class="col-xs-12 col-sm-4 emphasis">
+                   <h2><strong> {{ submissions}} </strong></h2>
+                   <p><a href="{{base_url}}/profile.php?id={{profile_user_id}}&list=submitted"><small>Submissions</small></a></p>
+                </div>
+                <div class="col-xs-12 col-sm-4 emphasis">
+                   <h2><strong>{{ comment_count}}</strong></h2>
+                    <p><small>Comments</small></p>
+                </div>
+            </div>
+       </div>
+    </div>
+
+            </div><!-- /row -->
+         </div> <!-- /container -->
+      </div><!-- /grey -->
+
+
+      {% include 'footer.html' %}

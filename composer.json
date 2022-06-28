@@ -1,0 +1,14 @@
+{
+    "type": "application",
+    "keywords": ["hackernews", "news"],
+    "license": "MIT",
+
+    "require": {
+        "php": ">=5.2.4",
+        "twig/twig": "1.12.*",
+	"phpmailer/phpmailer": ">=5.2.6"
+    },
+    "autoload": {
+        "psr-4": {"HackerNews\\": "core"}
+    }
+}
